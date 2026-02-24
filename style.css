@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fundo geral */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container central */
+main {
+    background: #2f2f4f;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    width: 350px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    position: absolute;
+    top: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6c5ce7;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Efeito hover */
+button:hover {
+    background-color: #a29bfe;
+    transform: scale(1.05);
+}
+
+/* Botão desativado */
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Mensagens */
+#tabela {
+    margin-top: 20px;
+    font-weight: bold;
+    min-height: 24px;
+}
+
+#tentativas {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.9;
+}
